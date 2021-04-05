@@ -19,7 +19,7 @@ float Poligono::setBase(float x){
 float Poligono::getAltura(){
     return this->altura;
 }
-float Poligono::setAltura(float y){
+void Poligono::setAltura(float y){
     this->altura = y;
 }
 
