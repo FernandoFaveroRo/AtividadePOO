@@ -9,7 +9,7 @@ class Poligono{
 //atributos
 protected: //Encapsulamento de Atributos como privados
     float base, altura;
-public: // Definição de métodos públicos
+public: // DefiniÃ§Ã£o de mÃ©todos pÃºblicos
     Poligono();//deafult - nada
     Poligono(float base, float altura);
 
@@ -54,6 +54,8 @@ public:
     Esfera(float raio);
     float AreaEsfera();
     float VolumeEsfera();
+    float getRaio(); //gettter para encpasulamenyo
+    void setRaio(float r); //setter para encapsulamento
 };
 
 // ---------- CONE ---------//
@@ -65,6 +67,8 @@ protected:
 public:
     Cone(float altura, float raio);
     float VolumeCone();
+    float getAltura(); //gettter para encpasulamenyo
+    void setAltura(float y); //setter para encapsulamento
 };
 
 // ---------- PARALELEPIPEDO ---------//
@@ -77,6 +81,8 @@ public:
     Cubo(float base, float altura, float Comprimento);
     float AreaParale();
     float VolumeParale();
+    float getComprimento(); //gettter para encpasulamenyo
+    void setComprimento(float comprimento); //setter para encapsulamento
 };
 
 
